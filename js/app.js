@@ -29,13 +29,13 @@ function navbarSwitchClick() {
 navbarLinks.forEach(elem => elem.addEventListener("click", navbarLinkClick));
 
 function navbarLinkClick() {
-    smoothScroll(event);
+    smoothScroll(event); //calls smooth scroll function found on line 41 when nav item is clicked
     if(navbarMenu.classList.contains("open")){ // closed navbar on smaller screens
         navbarSwitch.click();
     }
 }
 
-// script to create smooth scrolling  for navigation
+// script to create smooth scrolling for navigation
 
 // *********** window.scrollInToView()**************
 function smoothScroll(event) {

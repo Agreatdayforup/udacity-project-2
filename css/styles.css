@@ -86,7 +86,7 @@ section {
 }
 
 .brand:hover {
-    color: darkgoldenrod;
+    color: #cc1;
 }
 
 .navbar__menu ul li a {
@@ -98,7 +98,7 @@ section {
 }
 
 .navbar__menu ul li a:hover {
-    color: darkgoldenrod;
+    color: #cc1;
 }
 
 .navbar__menu .menu__link {
