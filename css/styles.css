@@ -261,7 +261,7 @@ section.your-active-class .landing__container::after {
 
 @media(max-width: 991px) {
     .navbar__menu ul{
-        padding: 15px 10px;
+        padding: 25px 10px;
     }
     
     .navbar__menu ul li a{
@@ -288,7 +288,7 @@ section.your-active-class .landing__container::after {
         height: auto;
         max-height: 0;
         overflow: hidden;
-        transition: all ease-in-out 0.3s;
+        transition: all ease-in-out 0.1s;
     }
     
     .navbar__menu ul.open {
@@ -313,8 +313,6 @@ section.your-active-class .landing__container::after {
         height: 40px;
         top: 10px;
         right: 20px;
-        background-color: transparent;
-        color: #fff;
         outline: none;
         padding: 0 5px;
         cursor: pointer;
@@ -328,8 +326,7 @@ section.your-active-class .landing__container::after {
         background-color: #fff;
         height: 3px;
         width: 28px;
-        border-radius: 4px;
-        transition: all ease-in-out 0.3s;
+        transition: all ease-in-out 0.2s;
     }
     
     .navbar__menu .navbar-toggler span::before {
