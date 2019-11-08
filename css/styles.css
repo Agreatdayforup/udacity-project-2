@@ -77,14 +77,18 @@ section {
 
 .brand {
     float: left;
-    padding-top: 8px;
+    padding-top: 6px;
+    padding-bottom: 3px;
     padding-left: 20px;
     font-size: 28px;
     color: white;
     text-decoration: none;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Fira Sans', Sans-Serif;
 }
 
+.page__header {
+    background-color: rgba(0,13,60,1);
+}
 .brand:hover {
     color: #cc1;
 }
@@ -123,6 +127,9 @@ button {
     display: none;
 }
 
+.navbar__menu.scroll a.current {
+    color: #cc1;
+}
 
 /* Header Styles */
 .page__header {
@@ -150,12 +157,13 @@ button {
 .landing__container {
     padding: 1em;
     text-align: left;
+    
 }
 
 @media only screen and (min-width: 35em){
     .landing__container {
         max-width: 50em;
-        padding: 4em;
+        padding: 7em;
     }
 }
 
@@ -163,6 +171,7 @@ section:nth-of-type(even) .landing__container {
     margin-right: 0;
     margin-left: auto;
     text-align: right; 
+    height: 100vh;
 }
 
 /* Background Circles */
